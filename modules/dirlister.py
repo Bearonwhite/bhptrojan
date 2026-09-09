@@ -1,6 +1,8 @@
-import os 
+import os
 
-def run(**args):
+def run():
     print("[*] In dirlister module.")
-    files = os.linesep(".")
+    files = os.listdir(".")
+
     return str(files)
+    
